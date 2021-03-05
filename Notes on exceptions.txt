@@ -1,0 +1,51 @@
+Exception Vs Error
+error is a situation which is nonrecoverable terminates abnormally eg your system runs out of memory
+it has nothing to do with your code. so you cannot code the fix
+Errors -> StackOverflowError - MemoryError
+exception is a situation which leads to a normal termination of application
+due to user input or runtime error. handles the abnormal problem and continues gracefully.
+This can be handled by changing your code and fixing it.
+
+exceptions can be fixed with coding while errors cannot be.
+errors can be communicated that is all.
+
+
+
+User-> Presentation Layer : View
+-> Business/Application Layer: Logical Calulation
+-> DB/Storage/persistance layer: DB operation
+DB[SQL][PLSQL][noSQL](DB = DataBase)
+
+presentation layer is whatever the user is seeing, so if they are on a web page that is the presentation layer
+the presentation layer also handles exceptions(exception handling logic) and communicate to the user
+using try..catch block
+
+super class of all is objects
+object-> throwable -> exception(Checked Exception) - compiler forces the programmer to handle it
+SQLException - FileNotFoundException - ClassNotFoundException - Parse Exception
+Checked Exception -> Runtime Exception(Unchecked Exception) -> compiler will not force you to handle it
+ArithmeticException - NUllPointerException - IndexOutOfBoundException - NumberFormatException - InputMismatchException
+Exceptions can only happen when the program is running
+if their is an error before it runs that is a syntax error.
+Exception is a Class
+
+handle exception
+try..catch
+try..catch..finally
+
+finally will make things execute once for sure ( optional kinda confused) 
+1 try block
+any number of catch block
+
+throws ->a block of code with throw these specific Exception
+throw -> Creates an objects?
+public void doSomething()throws AbcException 123456{
+Throse
+}
+
+if(user has invalid data){
+throw new Abc Exception("Hey data is invalid");
+}
+
+
+catch is the only handler and without a handler you will get an abnormal termination

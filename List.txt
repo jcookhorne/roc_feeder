@@ -1,0 +1,41 @@
+Linked lists, ArrayLists, Vector class, Set
+
+Linked list implements or can behavelike List,Queue(first come first serve insertions go in the back and deletions in the front
+Dequeue -insertions can happen on the front and on the back end never in the middle
+linked lists are more helpful for multiple insertions and deletions
+linked lists move by having [data] with the address of next node with them
+linked linearly by addresses of the nodes
+
+
+
+Vector is a legacy class 
+thread safe and backwards compatible better for old things
+
+arraylist 
+bulk insertions doing multiple insertions into something at once
+by default 10 memory locations once filled it will regrow by 50% of the
+previous memory size
+
+linkedList li = new linkedList();
+//code to ineterface
+List list_obj = new linkedList(); 
+Queue q = new linkedList();
+Dequeue dq = new linkedList();
+// left hand side should be the interface and right hand side should be its implementing class
+
+
+
+Set
+sets are not thread safe
+#Us - unique, unindexed, unordered
+unindexed means it isnt ordered by 1 2 3
+unique things can only be enterd 1 time
+unordered ?
+Set->HashSet<E>(C)
+HashSet<E>(C) -> LinkedHashSet
+Set-> SortedSet 
+SortedSet ->NavigableSet->TreeSet
+only difference between hashset and linked hashset linked hashset keeps the order of insertion
+SortedSet 
+will keep it in the sorted order but is still unique and unindexed
+
