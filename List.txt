@@ -27,6 +27,7 @@ Dequeue dq = new linkedList();
 
 Set
 sets are not thread safe
+it is a container not an array
 #Us - unique, unindexed, unordered
 unindexed means it isnt ordered by 1 2 3
 unique things can only be enterd 1 time

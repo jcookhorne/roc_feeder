@@ -1,0 +1,8 @@
+information
+
+parents cannot access child information but child can access parents
+child can access any parent information
+implicit is small to large happens by compiler
+explicit is large to small done by programmer
+
+

@@ -1,0 +1,51 @@
+HashMap Video for notes and well notes in general 
+A map is an associative array data structure. "key1"-> Value, "key2" -> Value etc.
+Hashing: transformation of a string of characters (Text) to a shorted fixed length value that represents 
+original string. A shorter value helps in indexing and faster searches
+in java every object has a method public int hashcode() that will return a hash value for given 
+object
+
+hash map is like a dictionary
+if two objects are equal they should have the same hashcode as well.
+you dont have to generate your own hashcode the system can create it as well
+the hashcode is usedd in storing values in the hashmap
+even if they are linked to a key if the code doesnt match you will necver get the value
+it is a linked list
+
+key is unique 
+value is repeated
+
+hashcode(index)
+Index threshhold amount of hashcodes that can fit in a certain index 
+TREEIFY_THRESHOLD = 8
+after the threshhold is reached it becomes a balanced tree
+where the bigger values are placed to the right and the smaller and placed to the left.
+put(Kk,Vv)
+	hash(k)
+	index = hash&(n-1)
+n=16??
+
+ you can store null as a key and null will always have a hash of 0 so the index will always be 0
+
+V get(object key)
+	hash(key)
+	index = hash & (n-1)
+n=16
+
+
+Keyset()
+Vakues()
+every key value set is called entrySet()
+Map<K,V>(I)
+HashMap<K,V>(C) -> doesnt maintain order of insertion
+maintains the order of insertion LinkedHashMap<K,V>(C)
+
+
+Map-> Sorted Map(I) -> NavigableMap-> TreeMap- key cannot be null
+HashTable
+(No null map)
+Thread safe 
+legacy class
+doesn't preserve the order of insertion
+
+
