@@ -19,9 +19,9 @@ public class EvenSumArray {
 		for (int i1 = 0; i1 < ar.length; i1++) {
 			if (ar[i1] % 2 == 0) {
 				evensum += ar[i1];
-				
-			} 
-			
+
+			}
+
 		}
 		System.out.println(evensum);
 	}

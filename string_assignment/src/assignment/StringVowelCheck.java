@@ -15,16 +15,8 @@ public class StringVowelCheck {
 		for (int i = 0; i < s.length(); i++) {
 			ch = s.charAt(v);
 			switch (ch) {
-			case 'a':
-			case 'e':
-			case 'i':
-			case 'o':
-			case 'u':
-			case 'A':
-			case 'E':
-			case 'I':
-			case 'O':
-			case 'U':
+			case 'a': case 'e':case 'i':case 'o':case 'u':
+			case 'A':case 'E':case 'I':case 'O':case 'U':
 				v = 1;
 			}
 		}
